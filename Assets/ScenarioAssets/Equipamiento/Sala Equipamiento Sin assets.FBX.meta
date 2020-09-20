@@ -1,0 +1,792 @@
+fileFormatVersion: 2
+guid: 03e2560d16f802e4a858c19e429f30a3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Box026
+    100002: Box037
+    100004: Box099
+    100006: Box104
+    100008: Columna 003
+    100010: Columna 004
+    100012: Columna 005
+    100014: Columna 006
+    100016: Columna 007
+    100018: Columna 008
+    100020: Columna 1
+    100022: Columna 2
+    100024: Cylinder031
+    100026: Cylinder032
+    100028: Cylinder033
+    100030: Cylinder034
+    100032: Cylinder035
+    100034: Cylinder036
+    100036: Cylinder037
+    100038: Cylinder038
+    100040: Cylinder039
+    100042: Cylinder040
+    100044: Cylinder041
+    100046: Cylinder042
+    100048: Cylinder043
+    100050: Cylinder044
+    100052: Cylinder045
+    100054: Cylinder046
+    100056: Cylinder047
+    100058: Cylinder048
+    100060: Cylinder049
+    100062: Cylinder050
+    100064: Cylinder051
+    100066: Cylinder052
+    100068: Cylinder053
+    100070: Cylinder054
+    100072: Cylinder055
+    100074: Cylinder056
+    100076: Cylinder057
+    100078: Cylinder058
+    100080: Cylinder059
+    100082: Cylinder060
+    100084: EQIP005
+    100086: Line001
+    100088: Line004
+    100090: Muro 005
+    100092: Muro 006
+    100094: Muro 007
+    100096: Muro 008
+    100098: Muro 009
+    100100: Muro 010
+    100102: Muro 011
+    100104: Muro 1
+    100106: Muro 4
+    100108: Muro corto
+    100110: PLaca
+    100112: PLaca002
+    100114: PLaca003
+    100116: PLaca004
+    100118: PLaca005
+    100120: PLaca006
+    100122: PLaca007
+    100124: PLaca008
+    100126: PLaca009
+    100128: PLaca010
+    100130: PLaca011
+    100132: PLaca012
+    100134: PLaca013
+    100136: PLaca014
+    100138: PLaca015
+    100140: PLaca016
+    100142: PLaca017
+    100144: PLaca018
+    100146: PLaca019
+    100148: PLaca020
+    100150: PLaca021
+    100152: PLaca022
+    100154: PLaca023
+    100156: Plane001
+    100158: //RootNode
+    100160: Techo
+    100162: TUBI002
+    100164: TUBI003
+    100166: TUBI004
+    100168: TUBI005
+    100170: TUBI006
+    100172: TUBI007
+    100174: TUBI008
+    100176: TUBI009
+    100178: TUBI010
+    100180: TUBI011
+    100182: TUBI012
+    100184: TUBI013
+    100186: TUBI014
+    100188: TUBI015
+    100190: TUBI016
+    100192: TUBI017
+    100194: TUBI018
+    100196: TUBI019
+    100198: TUBI020
+    100200: TUBI1
+    100202: Tubo 002
+    100204: Tubo 003
+    100206: Tubo 004
+    100208: Tubo 005
+    100210: Tubo 006
+    100212: Tubo 007
+    100214: Tubo 008
+    100216: Tubo 1
+    400000: Box026
+    400002: Box037
+    400004: Box099
+    400006: Box104
+    400008: Columna 003
+    400010: Columna 004
+    400012: Columna 005
+    400014: Columna 006
+    400016: Columna 007
+    400018: Columna 008
+    400020: Columna 1
+    400022: Columna 2
+    400024: Cylinder031
+    400026: Cylinder032
+    400028: Cylinder033
+    400030: Cylinder034
+    400032: Cylinder035
+    400034: Cylinder036
+    400036: Cylinder037
+    400038: Cylinder038
+    400040: Cylinder039
+    400042: Cylinder040
+    400044: Cylinder041
+    400046: Cylinder042
+    400048: Cylinder043
+    400050: Cylinder044
+    400052: Cylinder045
+    400054: Cylinder046
+    400056: Cylinder047
+    400058: Cylinder048
+    400060: Cylinder049
+    400062: Cylinder050
+    400064: Cylinder051
+    400066: Cylinder052
+    400068: Cylinder053
+    400070: Cylinder054
+    400072: Cylinder055
+    400074: Cylinder056
+    400076: Cylinder057
+    400078: Cylinder058
+    400080: Cylinder059
+    400082: Cylinder060
+    400084: EQIP005
+    400086: Line001
+    400088: Line004
+    400090: Muro 005
+    400092: Muro 006
+    400094: Muro 007
+    400096: Muro 008
+    400098: Muro 009
+    400100: Muro 010
+    400102: Muro 011
+    400104: Muro 1
+    400106: Muro 4
+    400108: Muro corto
+    400110: PLaca
+    400112: PLaca002
+    400114: PLaca003
+    400116: PLaca004
+    400118: PLaca005
+    400120: PLaca006
+    400122: PLaca007
+    400124: PLaca008
+    400126: PLaca009
+    400128: PLaca010
+    400130: PLaca011
+    400132: PLaca012
+    400134: PLaca013
+    400136: PLaca014
+    400138: PLaca015
+    400140: PLaca016
+    400142: PLaca017
+    400144: PLaca018
+    400146: PLaca019
+    400148: PLaca020
+    400150: PLaca021
+    400152: PLaca022
+    400154: PLaca023
+    400156: Plane001
+    400158: //RootNode
+    400160: Techo
+    400162: TUBI002
+    400164: TUBI003
+    400166: TUBI004
+    400168: TUBI005
+    400170: TUBI006
+    400172: TUBI007
+    400174: TUBI008
+    400176: TUBI009
+    400178: TUBI010
+    400180: TUBI011
+    400182: TUBI012
+    400184: TUBI013
+    400186: TUBI014
+    400188: TUBI015
+    400190: TUBI016
+    400192: TUBI017
+    400194: TUBI018
+    400196: TUBI019
+    400198: TUBI020
+    400200: TUBI1
+    400202: Tubo 002
+    400204: Tubo 003
+    400206: Tubo 004
+    400208: Tubo 005
+    400210: Tubo 006
+    400212: Tubo 007
+    400214: Tubo 008
+    400216: Tubo 1
+    2100000: 'Material #4'
+    2100002: 02 - Default
+    2100004: 04 - Default
+    2100006: 01 - Default
+    2100008: Estrude
+    2100010: Columnas
+    2100012: paredfondopuerta
+    2100014: Suelo
+    2100016: Techo
+    2100018: No Name
+    2100020: 10 - Default
+    2300000: Box037
+    2300002: Box099
+    2300004: Box104
+    2300006: Columna 003
+    2300008: Columna 004
+    2300010: Columna 005
+    2300012: Columna 006
+    2300014: Columna 007
+    2300016: Columna 008
+    2300018: Columna 1
+    2300020: Columna 2
+    2300022: Cylinder031
+    2300024: Cylinder032
+    2300026: Cylinder033
+    2300028: Cylinder034
+    2300030: Cylinder035
+    2300032: Cylinder036
+    2300034: Cylinder037
+    2300036: Cylinder038
+    2300038: Cylinder039
+    2300040: Cylinder040
+    2300042: Cylinder041
+    2300044: Cylinder042
+    2300046: Cylinder043
+    2300048: Cylinder044
+    2300050: Cylinder045
+    2300052: Cylinder046
+    2300054: Cylinder047
+    2300056: Cylinder048
+    2300058: Cylinder049
+    2300060: Cylinder050
+    2300062: Cylinder051
+    2300064: Cylinder052
+    2300066: Cylinder053
+    2300068: Cylinder054
+    2300070: Cylinder055
+    2300072: Cylinder056
+    2300074: Cylinder057
+    2300076: Cylinder058
+    2300078: Cylinder059
+    2300080: Cylinder060
+    2300082: Muro 005
+    2300084: Muro 006
+    2300086: Muro 007
+    2300088: Muro 008
+    2300090: Muro 009
+    2300092: Muro 010
+    2300094: Muro 011
+    2300096: Muro 1
+    2300098: Muro 4
+    2300100: Muro corto
+    2300102: PLaca
+    2300104: PLaca002
+    2300106: PLaca003
+    2300108: PLaca004
+    2300110: PLaca005
+    2300112: PLaca006
+    2300114: PLaca007
+    2300116: PLaca008
+    2300118: PLaca009
+    2300120: PLaca010
+    2300122: PLaca011
+    2300124: PLaca012
+    2300126: PLaca013
+    2300128: PLaca014
+    2300130: PLaca015
+    2300132: PLaca016
+    2300134: PLaca017
+    2300136: PLaca018
+    2300138: PLaca019
+    2300140: PLaca020
+    2300142: PLaca021
+    2300144: PLaca022
+    2300146: PLaca023
+    2300148: Plane001
+    2300150: Techo
+    2300152: TUBI002
+    2300154: TUBI003
+    2300156: TUBI004
+    2300158: TUBI005
+    2300160: TUBI006
+    2300162: TUBI007
+    2300164: TUBI008
+    2300166: TUBI009
+    2300168: TUBI010
+    2300170: TUBI011
+    2300172: TUBI012
+    2300174: TUBI013
+    2300176: TUBI014
+    2300178: TUBI015
+    2300180: TUBI016
+    2300182: TUBI017
+    2300184: TUBI018
+    2300186: TUBI019
+    2300188: TUBI020
+    2300190: TUBI1
+    2300192: Tubo 002
+    2300194: Tubo 003
+    2300196: Tubo 004
+    2300198: Tubo 005
+    2300200: Tubo 006
+    2300202: Tubo 007
+    2300204: Tubo 008
+    2300206: Tubo 1
+    3300000: Box037
+    3300002: Box099
+    3300004: Box104
+    3300006: Columna 003
+    3300008: Columna 004
+    3300010: Columna 005
+    3300012: Columna 006
+    3300014: Columna 007
+    3300016: Columna 008
+    3300018: Columna 1
+    3300020: Columna 2
+    3300022: Cylinder031
+    3300024: Cylinder032
+    3300026: Cylinder033
+    3300028: Cylinder034
+    3300030: Cylinder035
+    3300032: Cylinder036
+    3300034: Cylinder037
+    3300036: Cylinder038
+    3300038: Cylinder039
+    3300040: Cylinder040
+    3300042: Cylinder041
+    3300044: Cylinder042
+    3300046: Cylinder043
+    3300048: Cylinder044
+    3300050: Cylinder045
+    3300052: Cylinder046
+    3300054: Cylinder047
+    3300056: Cylinder048
+    3300058: Cylinder049
+    3300060: Cylinder050
+    3300062: Cylinder051
+    3300064: Cylinder052
+    3300066: Cylinder053
+    3300068: Cylinder054
+    3300070: Cylinder055
+    3300072: Cylinder056
+    3300074: Cylinder057
+    3300076: Cylinder058
+    3300078: Cylinder059
+    3300080: Cylinder060
+    3300082: Muro 005
+    3300084: Muro 006
+    3300086: Muro 007
+    3300088: Muro 008
+    3300090: Muro 009
+    3300092: Muro 010
+    3300094: Muro 011
+    3300096: Muro 1
+    3300098: Muro 4
+    3300100: Muro corto
+    3300102: PLaca
+    3300104: PLaca002
+    3300106: PLaca003
+    3300108: PLaca004
+    3300110: PLaca005
+    3300112: PLaca006
+    3300114: PLaca007
+    3300116: PLaca008
+    3300118: PLaca009
+    3300120: PLaca010
+    3300122: PLaca011
+    3300124: PLaca012
+    3300126: PLaca013
+    3300128: PLaca014
+    3300130: PLaca015
+    3300132: PLaca016
+    3300134: PLaca017
+    3300136: PLaca018
+    3300138: PLaca019
+    3300140: PLaca020
+    3300142: PLaca021
+    3300144: PLaca022
+    3300146: PLaca023
+    3300148: Plane001
+    3300150: Techo
+    3300152: TUBI002
+    3300154: TUBI003
+    3300156: TUBI004
+    3300158: TUBI005
+    3300160: TUBI006
+    3300162: TUBI007
+    3300164: TUBI008
+    3300166: TUBI009
+    3300168: TUBI010
+    3300170: TUBI011
+    3300172: TUBI012
+    3300174: TUBI013
+    3300176: TUBI014
+    3300178: TUBI015
+    3300180: TUBI016
+    3300182: TUBI017
+    3300184: TUBI018
+    3300186: TUBI019
+    3300188: TUBI020
+    3300190: TUBI1
+    3300192: Tubo 002
+    3300194: Tubo 003
+    3300196: Tubo 004
+    3300198: Tubo 005
+    3300200: Tubo 006
+    3300202: Tubo 007
+    3300204: Tubo 008
+    3300206: Tubo 1
+    4300000: Plane001
+    4300002: Box037
+    4300004: Tubo 1
+    4300006: Muro 4
+    4300008: Muro 1
+    4300010: Columna 1
+    4300012: TUBI1
+    4300014: Box099
+    4300016: PLaca
+    4300018: Box104
+    4300020: Techo
+    4300022: Cylinder031
+    4300024: Cylinder032
+    4300026: Cylinder033
+    4300028: Cylinder034
+    4300030: Cylinder035
+    4300032: Cylinder036
+    4300034: Cylinder037
+    4300036: Cylinder038
+    4300038: Cylinder039
+    4300040: Cylinder040
+    4300042: Cylinder041
+    4300044: Cylinder042
+    4300046: Cylinder043
+    4300048: Cylinder044
+    4300050: Cylinder045
+    4300052: Cylinder046
+    4300054: Cylinder047
+    4300056: Cylinder048
+    4300058: Cylinder049
+    4300060: Cylinder050
+    4300062: Cylinder051
+    4300064: Cylinder052
+    4300066: Cylinder053
+    4300068: Cylinder054
+    4300070: Cylinder055
+    4300072: Cylinder056
+    4300074: Cylinder057
+    4300076: Cylinder058
+    4300078: Cylinder059
+    4300080: Cylinder060
+    4300082: Muro corto
+    4300084: Columna 2
+    4300086: Columna 003
+    4300088: Muro 005
+    4300090: Columna 004
+    4300092: Muro 006
+    4300094: Columna 005
+    4300096: Muro 007
+    4300098: Muro 008
+    4300100: Columna 006
+    4300102: Columna 007
+    4300104: Columna 008
+    4300106: Muro 009
+    4300108: Muro 010
+    4300110: Muro 011
+    4300112: Tubo 002
+    4300114: Tubo 003
+    4300116: Tubo 004
+    4300118: TUBI002
+    4300120: TUBI003
+    4300122: TUBI004
+    4300124: TUBI005
+    4300126: TUBI006
+    4300128: TUBI007
+    4300130: TUBI008
+    4300132: TUBI009
+    4300134: TUBI010
+    4300136: TUBI011
+    4300138: TUBI012
+    4300140: TUBI013
+    4300142: TUBI014
+    4300144: TUBI015
+    4300146: TUBI016
+    4300148: TUBI017
+    4300150: TUBI018
+    4300152: TUBI019
+    4300154: TUBI020
+    4300156: PLaca002
+    4300158: PLaca003
+    4300160: PLaca004
+    4300162: PLaca005
+    4300164: PLaca006
+    4300166: PLaca007
+    4300168: PLaca008
+    4300170: PLaca009
+    4300172: PLaca010
+    4300174: PLaca011
+    4300176: PLaca012
+    4300178: PLaca013
+    4300180: PLaca014
+    4300182: PLaca015
+    4300184: PLaca016
+    4300186: PLaca017
+    4300188: PLaca018
+    4300190: PLaca019
+    4300192: PLaca020
+    4300194: PLaca021
+    4300196: PLaca022
+    4300198: PLaca023
+    4300200: Tubo 005
+    4300202: Tubo 006
+    4300204: Tubo 007
+    4300206: Tubo 008
+    6400000: Box037
+    6400002: Box099
+    6400004: Box104
+    6400006: Columna 003
+    6400008: Columna 004
+    6400010: Columna 005
+    6400012: Columna 006
+    6400014: Columna 007
+    6400016: Columna 008
+    6400018: Columna 1
+    6400020: Columna 2
+    6400022: Cylinder031
+    6400024: Cylinder032
+    6400026: Cylinder033
+    6400028: Cylinder034
+    6400030: Cylinder035
+    6400032: Cylinder036
+    6400034: Cylinder037
+    6400036: Cylinder038
+    6400038: Cylinder039
+    6400040: Cylinder040
+    6400042: Cylinder041
+    6400044: Cylinder042
+    6400046: Cylinder043
+    6400048: Cylinder044
+    6400050: Cylinder045
+    6400052: Cylinder046
+    6400054: Cylinder047
+    6400056: Cylinder048
+    6400058: Cylinder049
+    6400060: Cylinder050
+    6400062: Cylinder051
+    6400064: Cylinder052
+    6400066: Cylinder053
+    6400068: Cylinder054
+    6400070: Cylinder055
+    6400072: Cylinder056
+    6400074: Cylinder057
+    6400076: Cylinder058
+    6400078: Cylinder059
+    6400080: Cylinder060
+    6400082: Muro 005
+    6400084: Muro 006
+    6400086: Muro 007
+    6400088: Muro 008
+    6400090: Muro 009
+    6400092: Muro 010
+    6400094: Muro 011
+    6400096: Muro 1
+    6400098: Muro 4
+    6400100: Muro corto
+    6400102: PLaca
+    6400104: PLaca002
+    6400106: PLaca003
+    6400108: PLaca004
+    6400110: PLaca005
+    6400112: PLaca006
+    6400114: PLaca007
+    6400116: PLaca008
+    6400118: PLaca009
+    6400120: PLaca010
+    6400122: PLaca011
+    6400124: PLaca012
+    6400126: PLaca013
+    6400128: PLaca014
+    6400130: PLaca015
+    6400132: PLaca016
+    6400134: PLaca017
+    6400136: PLaca018
+    6400138: PLaca019
+    6400140: PLaca020
+    6400142: PLaca021
+    6400144: PLaca022
+    6400146: PLaca023
+    6400148: Plane001
+    6400150: Techo
+    6400152: TUBI002
+    6400154: TUBI003
+    6400156: TUBI004
+    6400158: TUBI005
+    6400160: TUBI006
+    6400162: TUBI007
+    6400164: TUBI008
+    6400166: TUBI009
+    6400168: TUBI010
+    6400170: TUBI011
+    6400172: TUBI012
+    6400174: TUBI013
+    6400176: TUBI014
+    6400178: TUBI015
+    6400180: TUBI016
+    6400182: TUBI017
+    6400184: TUBI018
+    6400186: TUBI019
+    6400188: TUBI020
+    6400190: TUBI1
+    6400192: Tubo 002
+    6400194: Tubo 003
+    6400196: Tubo 004
+    6400198: Tubo 005
+    6400200: Tubo 006
+    6400202: Tubo 007
+    6400204: Tubo 008
+    6400206: Tubo 1
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: 51e0faa157f21ea42b81b94730d2a989, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: 8e2b0b14d3f02114e99cd80a40205ebd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 04 - Default
+    second: {fileID: 2100000, guid: a11f5153a3fe1194f9643302500c162c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10 - Default
+    second: {fileID: 2100000, guid: 138c9bf9cde838c4c9325e650d701e2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Columnas
+    second: {fileID: 2100000, guid: 6e9cf1ee65ebce2438884a324c1b7efe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Estrude
+    second: {fileID: 2100000, guid: 9f34929c1d488c246bb2c72fc544ee3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #4'
+    second: {fileID: 2100000, guid: b3921dcdf7b22464cb970756ea615723, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 5b19df3c1fadbc146a1df4ba30cce032, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suelo
+    second: {fileID: 2100000, guid: abe02c3999f5255478ca8558a01a8288, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Techo
+    second: {fileID: 2100000, guid: 13fc72dbb0d804343aead682dc39076d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paredfondopuerta
+    second: {fileID: 2100000, guid: 228f4a948a96a954e824fa414e0deabf, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62cdd8784061f444dae5a3ed91d9fe8d, type: 3}
+  m_Name: EnemyHardVariables
+  m_EditorClassIdentifier: 
+  searchRange: 11
+  proximRange: 2.8
+  rangeDetection: 11
+  direccionAgente: {x: 0, y: 0, z: 1}
+  points:
+  - {fileID: 5060972165600738927, guid: 5120646369ec46546ad5a4eeca098e7d, type: 3}
+  - {fileID: 3060143810274755489, guid: 750cca78624ed0b4ead9356d5e0e4316, type: 3}
+  - {fileID: 5110704041133131546, guid: 8649760104989d34cbbf44224bf70511, type: 3}
+  - {fileID: 7053505525013671717, guid: 40f6769897f98f64dbca3b8b21f0a45b, type: 3}
+  - {fileID: 8326376669852263860, guid: ef92b044597239c47972af4f58f8c818, type: 3}
+  - {fileID: 1040937132781492747, guid: 50bafbbe2a2363648a2f344d44fc7415, type: 3}
+  - {fileID: 4976830321304582220, guid: a9ed6eaf3d10f5249b8b69f96a72a493, type: 3}
+  - {fileID: 8218148939158152838, guid: cc994419e3d94d341be259c4346f54ce, type: 3}
+  - {fileID: 3785227091658051445, guid: 57064ae960592be4ca39d0bc802e3950, type: 3}
+  agent: 0

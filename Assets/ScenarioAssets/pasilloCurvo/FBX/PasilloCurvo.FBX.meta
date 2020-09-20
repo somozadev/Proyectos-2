@@ -1,0 +1,221 @@
+fileFormatVersion: 2
+guid: b6ed28c084bee5c4898a78b4bf4dbb63
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cristal
+    100002: Cristal005
+    100004: Cristal006
+    100006: Crsital
+    100008: Pasillo00
+    100010: Pasillo01
+    100012: Pasillo02
+    100014: Pasillo03
+    100016: Pasillo04
+    100018: Pasillo05
+    100020: Pasillo06
+    100022: Pasillo07
+    100024: //RootNode
+    400000: Cristal
+    400002: Cristal005
+    400004: Cristal006
+    400006: Crsital
+    400008: Pasillo00
+    400010: Pasillo01
+    400012: Pasillo02
+    400014: Pasillo03
+    400016: Pasillo04
+    400018: Pasillo05
+    400020: Pasillo06
+    400022: Pasillo07
+    400024: //RootNode
+    2100000: Pasillo06
+    2100002: Pasillo05
+    2100004: Pasillo01
+    2100006: Pasillo02
+    2100008: Pasillo04
+    2100010: Pasillo03
+    2100012: Pasillo08
+    2100014: Pasillo07
+    2100016: Cristal1
+    2100018: Cristal2
+    2100020: Cristal4
+    2100022: Cristal3
+    2300000: Cristal
+    2300002: Cristal005
+    2300004: Cristal006
+    2300006: Crsital
+    2300008: Pasillo00
+    2300010: Pasillo01
+    2300012: Pasillo02
+    2300014: Pasillo03
+    2300016: Pasillo04
+    2300018: Pasillo05
+    2300020: Pasillo06
+    2300022: Pasillo07
+    3300000: Cristal
+    3300002: Cristal005
+    3300004: Cristal006
+    3300006: Crsital
+    3300008: Pasillo00
+    3300010: Pasillo01
+    3300012: Pasillo02
+    3300014: Pasillo03
+    3300016: Pasillo04
+    3300018: Pasillo05
+    3300020: Pasillo06
+    3300022: Pasillo07
+    4300000: Pasillo05
+    4300002: Pasillo04
+    4300004: Pasillo00
+    4300006: Pasillo01
+    4300008: Pasillo03
+    4300010: Pasillo02
+    4300012: Pasillo07
+    4300014: Pasillo06
+    4300016: Cristal
+    4300018: Cristal005
+    4300020: Cristal006
+    4300022: Crsital
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cristal1
+    second: {fileID: 2100000, guid: 7360651d5f6aa484a932c8eda11aef5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cristal2
+    second: {fileID: 2100000, guid: 27d5263f36ec30f47bf59297622ef8e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cristal3
+    second: {fileID: 2100000, guid: c7372265bc5b6294c8d01568657f0846, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cristal4
+    second: {fileID: 2100000, guid: 6d69e9e0b81a4df4f9d5b770a42b1f6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pasillo01
+    second: {fileID: 2100000, guid: 4265e5cfa97af46489cbdf8aa19d7f6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pasillo02
+    second: {fileID: 2100000, guid: f837539cbf8792b4ba3db4dd37e4344e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pasillo03
+    second: {fileID: 2100000, guid: 5b5727a194d57524c8807a60c01bd6a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pasillo04
+    second: {fileID: 2100000, guid: 197729ce1d34eca498c62c78b01510bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pasillo05
+    second: {fileID: 2100000, guid: 53f97773120c5d3419cb883d288b6d23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pasillo06
+    second: {fileID: 2100000, guid: f1ecb1ae46cfcdf46a42b787c6f16b2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pasillo07
+    second: {fileID: 2100000, guid: b258d7d2ebb79ae45873ab7cc4e83648, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pasillo08
+    second: {fileID: 2100000, guid: 36d261fe2f9e44f4199672cb110bd3fa, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

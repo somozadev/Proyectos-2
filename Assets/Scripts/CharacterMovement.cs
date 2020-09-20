@@ -4,7 +4,6 @@
 [RequireComponent(typeof(CharacterController))]
 public class CharacterMovement : MonoBehaviour
 {
-   
     //Estaría bien que se agachara gradualmente. Estaría mu bien
     //Estaría bien que se agachara gradualmente. Estaría mu bien
     private CharacterController characterController;
@@ -13,7 +12,6 @@ public class CharacterMovement : MonoBehaviour
     private Vector3 smoother;
     private Vector3 horizontalVelocity;
 
-    public Transform cam;
     public float Speed = 5f;
     public float JumpHeight = 2f;
     [Range(0.01f, 1f)]
@@ -24,8 +22,6 @@ public class CharacterMovement : MonoBehaviour
     public Vector3 Drag;
     public float smoothTime = 0.15f;
     public float crouchTime = 0.5f;
-    public float counter = 0;
-    public Vector3 initialCenterValue;
 
     public bool isGrounded { get { return characterController.isGrounded; } }
     public float currentSpeed { get { return horizontalVelocity.magnitude; } }
@@ -36,13 +32,13 @@ public class CharacterMovement : MonoBehaviour
     void Start()
     {
         characterController = GetComponent<CharacterController>();
-        initialCenterValue = characterController.center;
-        counter = characterController.height;
+        
     }
     
     // Update is called once per frame
     public void moveCharacter(float horizontal, float vertical, bool jump, bool dash, bool crouch)
     {
+
         float deltaTime = Time.deltaTime;
         float dashF = 1f;
         float crouchF = 1f;
@@ -51,38 +47,15 @@ public class CharacterMovement : MonoBehaviour
         {
             moveDirection = horizontal * transform.right + vertical * transform.forward;
 
-            if (dash)
-            {
-                 dashF = DashFactor;
-
-            }
+            if (dash) dashF = DashFactor;
             if (crouch)
             {
-
                 crouchF = CrouchFactor;
-                while (characterController.height >= 2.0f)
-                {
-
-                    characterController.height--;
-                    characterController.center = Vector3.up * characterController.height * -.5f;
-                    cam.position = new Vector3(cam.position.x, characterController.height, cam.position.z);
-                   
-                }
-                //characterController.height = 1.5f;
-                //characterController.center = Vector3.up * characterController.height * .5f;
+                characterController.height = 1.0f;
             }
             else
             {
-                while (characterController.height <= 1.0f)
-                {
-                   
-                    characterController.height++;
-                    characterController.center = initialCenterValue;
-                    cam.position = new Vector3(cam.position.x, characterController.height, cam.position.z);
-                    
-                }
-                //characterController.height = 2.0f;
-                //characterController.center = initialCenterValue;
+                characterController.height = 2.0f;
             }
             if (jump)
             {
@@ -111,7 +84,7 @@ public class CharacterMovement : MonoBehaviour
 
         // Apply move to the character
         characterController.Move(smoothMoveDirection * (deltaTime * Speed * dashF * crouchF));
- 
+
         // Cache horizontal Speed
         horizontalVelocity.Set(characterController.velocity.x, 0, characterController.velocity.z);
     }

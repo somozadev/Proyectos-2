@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 814408ae56e554c4a9ec6775bf7c1096
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Box001
+    100002: Button03
+    100004: Button04
+    100006: Button05
+    100008: Button06
+    100010: Button07
+    100012: Button08
+    100014: Button09
+    100016: Button10
+    100018: Button11
+    100020: Button12
+    100022: Button13
+    100024: Button14
+    100026: //RootNode
+    100028: Screen
+    400000: Box001
+    400002: Button03
+    400004: Button04
+    400006: Button05
+    400008: Button06
+    400010: Button07
+    400012: Button08
+    400014: Button09
+    400016: Button10
+    400018: Button11
+    400020: Button12
+    400022: Button13
+    400024: Button14
+    400026: //RootNode
+    400028: Screen
+    2100000: Caja
+    2100002: Panel
+    2100004: Boton1
+    2100006: Boton2
+    2300000: Box001
+    2300002: Button03
+    2300004: Button04
+    2300006: Button05
+    2300008: Button06
+    2300010: Button07
+    2300012: Button08
+    2300014: Button09
+    2300016: Button10
+    2300018: Button11
+    2300020: Button12
+    2300022: Button13
+    2300024: Button14
+    2300026: Screen
+    3300000: Box001
+    3300002: Button03
+    3300004: Button04
+    3300006: Button05
+    3300008: Button06
+    3300010: Button07
+    3300012: Button08
+    3300014: Button09
+    3300016: Button10
+    3300018: Button11
+    3300020: Button12
+    3300022: Button13
+    3300024: Button14
+    3300026: Screen
+    4300000: Box001
+    4300002: Screen
+    4300004: Button14
+    4300006: Button13
+    4300008: Button12
+    4300010: Button11
+    4300012: Button10
+    4300014: Button09
+    4300016: Button08
+    4300018: Button07
+    4300020: Button06
+    4300022: Button05
+    4300024: Button04
+    4300026: Button03
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boton1
+    second: {fileID: 2100000, guid: a4b52cdbc83eb4a438c4fb77b2400ccc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boton2
+    second: {fileID: 2100000, guid: f8b9b7320d499524e98e4e81008880ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Caja
+    second: {fileID: 2100000, guid: f468d75202b33644186e3923ab92ed95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Panel
+    second: {fileID: 2100000, guid: 682e0f0988d50f0408278395ce04269b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

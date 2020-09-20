@@ -1,27 +1,12 @@
 ﻿using UnityEngine;
-using System.Collections.Generic;
 
 [RequireComponent(typeof(CharacterMovement))]
 public class PlayerFPSController : MonoBehaviour
 {
-    public  List<AudioClip> listaAudio = new List<AudioClip>();
     private CharacterMovement characterMovement;
     private InputData input;
     private MouseLook mouseLook;
-    int i = 5; 
 
- #region VariablesCondicionalesSonido
-   
-    public  bool Moviendo = false;
-   
-    public  bool Corriendo = false;
-   
-    public  bool Agachado = false;
-       
-    public  bool AgachadoMoviendo = false;
-       
-    public  bool AgachadoCorriendo = false;
-    #endregion
     // Start is called before the first frame update
     void Start()
     {
@@ -39,74 +24,6 @@ public class PlayerFPSController : MonoBehaviour
         //Rotación
         mouseLook.verticalAxis = input.verticalMouse;
         mouseLook.horizontalAxis = input.horizontalMouse;
-        //Booleanas para sonido
-        #region MazoDeIfs
-        if(input.dash && input.crouch && (input.hMovement >0 || input.vMovement >0 || input.hMovement <0 || input.vMovement<0))
-        {
-            AgachadoCorriendo = true; 
-            //
-            Moviendo = false; 
-            Corriendo = false;
-            Agachado = false; 
-            AgachadoMoviendo = false; 
-            //
-        }
-        else if(input.crouch && (input.hMovement >0 || input.vMovement >0 || input.hMovement <0 || input.vMovement<0))
-        {
-            AgachadoMoviendo = true;
-             //
-            Moviendo = false; 
-            Corriendo = false;
-            Agachado = false; 
-            AgachadoCorriendo = false; 
-            //
-        }
-        else if(!input.crouch && !input.dash && (input.hMovement >0 || input.vMovement >0 || input.hMovement <0 || input.vMovement<0))
-        {
-            Moviendo = true; 
-             // 
-            Corriendo = false;
-            Agachado = false; 
-            AgachadoMoviendo = false; 
-            AgachadoCorriendo = false; 
-            //
-        }
-        else if(!input.crouch && input.dash && (input.hMovement >0 || input.vMovement >0 || input.hMovement <0 || input.vMovement<0))
-        {
-            Corriendo = true; 
-             //
-            Moviendo = false; 
-            Agachado = false; 
-            AgachadoMoviendo = false; 
-            AgachadoCorriendo = false; 
-            //
-        }
-        else if(!input.crouch && !input.dash &&(input.hMovement ==0 || input.vMovement ==0))
-        {
-            Moviendo = false; 
-             //
-            Corriendo = false; 
-            Agachado = false; 
-            AgachadoMoviendo = false; 
-            AgachadoCorriendo = false; 
-            //
-        }
-        else if(input.crouch && !input.dash && (input.hMovement ==0 || input.vMovement ==0))
-        {
-           
-            Agachado = true;
-            //
-            Corriendo = false; 
-            Moviendo = false;
-            AgachadoMoviendo = false; 
-            AgachadoCorriendo = false; 
-        }
-        #endregion
-
-        i = FuncionSonido.ElegirSonido(Moviendo,Corriendo,Agachado,AgachadoMoviendo,AgachadoCorriendo);
-        Debug.Log(i + ": VALOR SONIDO");
-        if(i!=5)
-        FuncionSonido.ReproducirSonidoDeterminado(gameObject,i,listaAudio);
     }
     public struct InputData
     {

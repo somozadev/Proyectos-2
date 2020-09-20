@@ -34,7 +34,7 @@ public class MouseLook : MonoBehaviour
         // Get Mouse input
         targetCamEulers += verticalAxis * vRotationSpeed * Time.deltaTime;
         float targetPlayerRotation = horizontalAxis * hRotationSpeed * Time.deltaTime;
-
+//        Debug.Log(horizontalAxis);
         // Player Rotation
         hPlayerRotation = Mathf.SmoothDamp(hPlayerRotation, targetPlayerRotation, ref currentHVelocity, smoothTime);
         transform.Rotate(0f, hPlayerRotation, 0f);
